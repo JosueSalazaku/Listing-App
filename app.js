@@ -3,9 +3,12 @@ document.addEventListener("DOMContentLoaded", function () {
   
     button.addEventListener("click", () => {
       let nameValue = document.getElementById('inputField').value;
+      
       let list = document.getElementById('clientList');
+      
       let newName = document.createElement('li');
       newName.innerText = nameValue;
+      
       list.appendChild(newName);
     });
   });
