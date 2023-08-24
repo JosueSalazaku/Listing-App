@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 550px;
+    background-color: #D3D3D3;
+    background-image:linear-gradient(147deg, #e5e8ec) 0%, blue 73%;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: rgb(38,57,77) 0px 20px 30px -10px;
+}
